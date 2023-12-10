@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+      
+    <Blueprint>
+      <Id>
+          <TypeId>BlueprintDefinition</TypeId>
+          <SubtypeId>QuantumThrustComponentBP</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Thruster Comp.</DisplayName>
+      <Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+      <Prerequisites>
+          <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+          <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+          <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+          <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+          <Item Amount="0.4" TypeId="Ingot" SubtypeId="Platinum" />
+          <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuantumThrustComponent" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+			<IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+<!--
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>QuantumGrid</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Grid Comp</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="QuantumGrid" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+-->
+
+  </Blueprints>
+</Definitions>

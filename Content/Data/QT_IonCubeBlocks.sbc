@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+     
+<!-- Small Grid -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallQuantumThrust_Mk1</SubtypeId>
+      </Id>
+      <DisplayName>Small Quantum Thruster Mk.1</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.1</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="QuantumThrustComponent" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>100000</ForceMagnitude>
+      <MaxPowerConsumption>0.5</MaxPowerConsumption>
+      <MinPowerConsumption>0.01</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0.0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <FlameGlareQuerySize>0.0</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallQuantumThrust_Mk2</SubtypeId>
+      </Id>
+      <DisplayName>Small Quantum Thruster Mk.2</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.2</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="QuantumThrustComponent" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>250000</ForceMagnitude>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
+      <MinPowerConsumption>0.01</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0.0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <FlameGlareQuerySize>0.0</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallQuantumThrust_Mk3</SubtypeId>
+      </Id>
+      <DisplayName>Small Quantum Thruster Mk.3</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.3</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="QuantumThrustComponent" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>500000</ForceMagnitude>
+      <MaxPowerConsumption>2.5</MaxPowerConsumption>
+      <MinPowerConsumption>0.01</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0.0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <FlameGlareQuerySize>0.0</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallQuantumThrust_Mk4</SubtypeId>
+      </Id>
+      <DisplayName>Small Quantum Thruster Mk.4</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\SG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.4</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="QuantumThrustComponent" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>1000000</ForceMagnitude>
+      <MaxPowerConsumption>5.0</MaxPowerConsumption>
+      <MinPowerConsumption>0.01</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0.0</FlameDamage>
+      <FlameLengthScale>1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <FlameGlareQuerySize>0.0</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>5</PCU>
+    </Definition>
+
+<!-- Large Grid -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeQuantumThrust_Mk1</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Thruster Mk.1</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.1</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="QuantumThrustComponent" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\LG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>10000000</ForceMagnitude>
+      <MaxPowerConsumption>50</MaxPowerConsumption>
+      <MinPowerConsumption>1</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+	    <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeQuantumThrust_Mk2</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Thruster Mk.2</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.2</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="QuantumThrustComponent" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\LG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>25000000</ForceMagnitude>
+      <MaxPowerConsumption>125</MaxPowerConsumption>
+      <MinPowerConsumption>1</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+	    <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeQuantumThrust_Mk3</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Thruster Mk.3</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.3</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="QuantumThrustComponent" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\LG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>50000000</ForceMagnitude>
+      <MaxPowerConsumption>250</MaxPowerConsumption>
+      <MinPowerConsumption>1</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+	    <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>25</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeQuantumThrust_Mk4</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Thruster Mk.4</DisplayName>
+      <Icon>Textures\GUI\Icons\Docking_Thruster_90.dds</Icon>
+      <Description>Breakthrough in quantum entanglement technology allows a significant increase in thrust.</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\LG_Docking_Thruster_90.mwm</Model>
+      <BlockPairName>Quantum Thruster Mk.4</BlockPairName>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="QuantumThrustComponent" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="QuantumThrustComponent" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <Center x="0" y="0" z="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\LG_Docking_Thruster_90_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LG_Docking_Thruster_90.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>100000000</ForceMagnitude>
+      <MaxPowerConsumption>500</MaxPowerConsumption>
+      <MinPowerConsumption>1</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+	    <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.0</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.25</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>5000</FlameVisibilityDistance>
+      <FlameGlareSize>0.0</FlameGlareSize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>25</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

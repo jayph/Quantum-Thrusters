@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Quantum Thrusters</DisplayName>
+      <Name>Quantum Thrusters</Name>
+      <ItemIds>
+        <string>Thrust/LargeQuantumThrust_Mk1</string>
+        <string>Thrust/SmallQuantumThrust_Mk1</string>
+        <string>Thrust/LargeQuantumThrust_Mk2</string>
+        <string>Thrust/SmallQuantumThrust_Mk2</string>
+        <string>Thrust/LargeQuantumThrust_Mk3</string>
+        <string>Thrust/SmallQuantumThrust_Mk3</string>
+        <string>Thrust/LargeQuantumThrust_Mk4</string>
+        <string>Thrust/SmallQuantumThrust_Mk4</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>
